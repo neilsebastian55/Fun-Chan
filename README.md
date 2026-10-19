@@ -2,27 +2,6 @@
 
 Discord bot created for H2HF (an art collective founded by @tthree). Serves as an elo/point tracker for members as well as event organization tool.
 
-## Install and run (Windows)
-
-You need Python 3.10 or newer (https://python.org — tick "Add Python to PATH" when installing).
-
-Open a terminal in this folder:
-
-```
-python3 -m venv venv
-source venv/bin/activate
-pip install -r requirements.txt
-```
-
-Open `.env` in Notepad, fill in the values, save, then:
-
-```
-python bot.py
-```
-
-You should see `Logged in as ...`. The slash commands appear in your server right away
-(if not, restart Discord with Ctrl+R).
-
 ## Commands
 
 | Command                                        | Permissions            |
